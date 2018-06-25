@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ 
+/*渲染下拉组件*/
+.nav{
+	width: 180px;
+	border: 2px solid lightgrey;
+}
+/*大标题设置*/
+.nav li a{
+	padding-left: 5%;
+	border-bottom: 2px solid lightgray;
+	height: 47px;
+	/*background: url(../img/bg.png) no-repeat;*/
+	line-height: 16px;
+}
+/*大标题内样式设置*/
+.nav li a span{
+	color: lightgray;
+	vertical-align: middle;
+	display: inline-block;
+}
+.nav li a span:nth-child(1){
+	float: left;
+	margin-left: 3%;
+}
+.nav li a span:nth-child(2){
+	margin-left: 5%;
+}
+.nav li a span:nth-child(3){
+	float: right;
+	margin-right: 3%;
+}
+/*大标题中的小标题*/
+._nav{
+	display: none;
+}
+._nav li{
+	border-bottom: 1px solid lightgrey;
+	padding: 10px 26px;
+}
+
+
